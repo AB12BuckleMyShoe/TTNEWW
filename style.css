@@ -1,0 +1,53 @@
+body {
+    background-color: orange;
+}
+
+.tthead {
+    position: absolute;
+    font-size: 300%;
+    left: 45%;
+}
+
+#ttimg {
+    position: absolute;
+    left: 0%;
+}
+
+
+.coming {
+    position: absolute;
+    color: lime;
+    font-size: 500%;
+    right: 20%;
+    top: 20%;
+}
+@keyframes blink{
+    50% {
+        opacity:0
+    }
+    80% {
+        opacity:.5
+    }
+}
+.preorder {
+    position: absolute;
+    color: blue;
+    font-size: 400%;
+    animation: blink 1s linear infinite;
+    right: 20%;
+    top: 40%;
+
+}
+
+.arrows {
+    position: absolute;
+    right: 25%;
+    top: 40%;
+}
+
+.link {
+    position: absolute;
+    font-size: 250%;
+    right: 33%;
+    top: 90%;
+}
